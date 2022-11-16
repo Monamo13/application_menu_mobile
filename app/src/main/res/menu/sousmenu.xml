@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+   android:id="@+id/menu_disconnect"
+    android:title="Déconnecter"
+    />
+      <item
+         android:title="Mon compte"
+      >
+<menu>
+    <group>
+        <item
+            android:id="@+id/menu_profil"
+            android:icon="@android:drawable/ic_menu_zoom"
+            android:title="Voir le profil"
+            />
+        <item
+            android:id="@+id/menu_groupes"
+            android:icon="@android:drawable/ic_menu_week"
+            android:title="Groupes"
+            />
+        <item
+            android:id="@+id/menu_evenement"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="Evénements"
+            />
+    </group>
+</menu>
+</item>
+    </menu>

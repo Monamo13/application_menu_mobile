@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_sauvegarder"
+        android:title="Sauvegarder" />
+    <item android:id="@+id/menu_rechercher"
+        android:title= " Rechercher" />
+    <item android:id="@+id/menu_supprimer"
+        android:title= " Supprimer" />
+    <item android:id="@+id/menu_preferences"
+        android:title="Préférences" />
+</menu>
